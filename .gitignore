@@ -8,3 +8,4 @@
 .idea/wichtelautomat.iml
 .idea/workspace.xml
 src/main/PyWhatKit_DB.txt
+__pycache__
