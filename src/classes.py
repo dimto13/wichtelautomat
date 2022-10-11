@@ -56,7 +56,7 @@ class DataContent:
 class WhatsApp:
     def __init__(self, sender_dict: Dict, intro_text: str):
         self._sender_dict = sender_dict
-        self.intro_text = ""
+        self.intro_text = intro_text
 
     def send_message_to_whatsapp(self):
         for key, value in self._sender_dict.items():
@@ -75,9 +75,10 @@ class WhatsApp:
         now_date = datetime.datetime.now() + datetime.timedelta(minutes=1)
         text = self.intro_text + " " + "Testnachricht am " + \
                f"{str(now_date.hour)}:{str(now_date.minute)}:{str(now_date.second)}"
+        print(f"Send text: {text}")
         pywhatkit.sendwhatmsg(
             phone_no="+491637725729",
             message=text,
             time_hour=now_date.hour,
-            time_min=now_date.minute,
+            time_min=now_date.minute+1,
             wait_time=40)

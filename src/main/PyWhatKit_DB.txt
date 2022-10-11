@@ -1,15 +1,20 @@
-Date: 18/9/2022
-Time: 21:34
+Date: 8/10/2022
+Time: 12:37
+Phone Number: +491637725729
+Message: Testnachricht am 12:38:48
+--------------------
+Date: 8/10/2022
+Time: 12:40
 Phone Number: +491637725729
 Message: Hammer
 --------------------
-Date: 18/9/2022
-Time: 21:38
+Date: 8/10/2022
+Time: 12:44
 Phone Number: +491637725729
 Message: Hammer
 --------------------
-Date: 18/9/2022
-Time: 21:40
-Phone Number: +4915170862929
-Message: Hey Bunny
+Date: 8/10/2022
+Time: 12:46
+Phone Number: +4917654417065
+Message: DrehmomentschlÃ¼ssel
 --------------------
